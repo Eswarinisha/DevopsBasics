@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: utf-8
+  vmImage: 'utf-8'
 
 steps:
 - task: Maven@3
